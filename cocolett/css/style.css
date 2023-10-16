@@ -1,0 +1,93 @@
+header{
+    display: flex;
+    justify-content: center;
+}
+img {
+    height: 250px;
+}
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;    
+}
+ul li {
+    list-style: none;
+    margin-left: 10px;
+}
+a{
+    text-decoration: none;
+    color: #010d00;
+    font-family: 'Quicksand', sans-serif;
+    padding: 4px 10px;
+    font-size: 22px;
+}
+a:hover{
+    color: #f2dff1;
+    background-color: #8c7b8b;
+    border-radius: 5px;    
+}
+footer .abajo {
+    text-align: center;
+}
+section .formulario{
+    margin: auto;   
+    text-align: center;
+}
+section .Ubicacion{
+    margin: auto;
+    text-align: center;
+}
+section .img{
+    width: 5px;
+}
+#uno{
+    width: 1000px;
+    height: 200px;
+    margin: auto;
+    background-color: #f2dff1;
+}
+#dos{
+    width: 100%;
+    height: 200px;
+    background-color: #f2dff1;
+}
+#tres{
+    width: 1000px;
+    height: 200px;
+    margin: auto;
+    background-color: #f2dff1;
+}
+
+.banner__container {
+    display: flex;
+    justify-content: center;
+    padding: 0 10%;
+}
+
+.banner__container img {
+    width: 100%;
+    height: 600px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+body{
+    margin: 0;
+}
+
+nav {
+    padding: 0px 10%;
+}
+
+.Social_container {
+    display: flex;
+    align-items: center;
+    justify-content:right;
+    width: 50%;
+}
+
+.Social_container img{
+    width: 50PX;
+    height: 50px;
+}
